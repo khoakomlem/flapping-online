@@ -1,28 +1,28 @@
 class Animation {
-    constructor(aliveTime = 9999999) {
-        this.delete = false;
-        this.onBorn_runned = false; // check if onBorn function have been runned
-        this.aliveTime = aliveTime; // infinity alive Time
-        this.frameCount = 0;
-    }
+	constructor(aliveTime = 9999999) {
+		this.delete = false;
+		this.onBorn_runned = false; // check if onBorn function have been runned
+		this.aliveTime = aliveTime; // infinity alive Time
+		this.frameCount = 0;
+	}
 
-    onBorn() {
+	onBorn() {
 
-    }
+	}
 
-    update() {
+	update() {
 
-    }
+	}
 
-    draw() {
+	draw() {
 
-    }
+	}
 
-    onDestroy() {
+	onDestroy() {
 
-    }
+	}
 
-    destroy() {
-        this.delete = true;
-    }
+	destroy() {
+		this.delete = true;
+	}
 }

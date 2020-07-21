@@ -1,115 +1,110 @@
 @font-face {
-    font-family: 'NameSmile';
-    src: url('fonts/NameSmile.eot');
-    src: url('fonts/NameSmile.eot') format('embedded-opentype'),
-        url('fonts/NameSmile.woff2') format('woff2'),
-        url('fonts/NameSmile.woff') format('woff'),
-        url('fonts/NameSmile.ttf') format('truetype'),
-        url('fonts/NameSmile.svg#NameSmile') format('svg');
+	font-family: 'NameSmile';
+	src: url('fonts/NameSmile.eot');
+	src: url('fonts/NameSmile.eot') format('embedded-opentype'),
+		url('fonts/NameSmile.woff2') format('woff2'),
+		url('fonts/NameSmile.woff') format('woff'),
+		url('fonts/NameSmile.ttf') format('truetype'),
+		url('fonts/NameSmile.svg#NameSmile') format('svg');
 }
 
 @font-face {
-    font-family: 'FlappyBirdRegular9Pq0';
-    src: url('fonts/FlappyBirdRegular9Pq0.eot');
-    src: url('fonts/FlappyBirdRegular9Pq0.eot') format('embedded-opentype'),
-        url('fonts/FlappyBirdRegular9Pq0.woff2') format('woff2'),
-        url('fonts/FlappyBirdRegular9Pq0.woff') format('woff'),
-        url('fonts/FlappyBirdRegular9Pq0.ttf') format('truetype'),
-        url('fonts/FlappyBirdRegular9Pq0.svg#FlappyBirdRegular9Pq0') format('svg');
+	font-family: 'FlappyBirdRegular9Pq0';
+	src: url('fonts/FlappyBirdRegular9Pq0.eot');
+	src: url('fonts/FlappyBirdRegular9Pq0.eot') format('embedded-opentype'),
+		url('fonts/FlappyBirdRegular9Pq0.woff2') format('woff2'),
+		url('fonts/FlappyBirdRegular9Pq0.woff') format('woff'),
+		url('fonts/FlappyBirdRegular9Pq0.ttf') format('truetype'),
+		url('fonts/FlappyBirdRegular9Pq0.svg#FlappyBirdRegular9Pq0') format('svg');
 }
 
 
 * {
-    font-family: NameSmile;
+	font-family: NameSmile;
 }
 
 .swal2-container #swal2-content,
 .swal2-title {
-    font-family: Arial;
-    font-size: 20px;
+	font-family: Arial;
+	font-size: 20px;
 }
 
 #defaultCanvas0 {
-    z-index: -2;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+	z-index: -2;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .center2 {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-
-
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 #freepik {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    border-radius: 10px 0px 0px 0px;
-    background: white;
-    padding: 5px;
-    opacity: 0.5;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	border-radius: 10px 0px 0px 0px;
+	background: white;
+	padding: 5px;
+	opacity: 0.5;
 }
 
 .fullSize {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
 }
 
 input[type="submit"],
 textarea {
-
-    background-color: transparent;
-
+	background-color: transparent;
 }
 
 .button {
-    border: none;
-    margin-bottom: 10px;
-    display: inline-block;
-    width: 181px;
-    height: 72px;
-    font-family: FlappyBirdRegular9Pq0;
-    font-size: 50px;
+	border: none;
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 181px;
+	height: 72px;
+	font-family: FlappyBirdRegular9Pq0;
+	font-size: 50px;
 
-    background-image: url("game/image/buttonflap.png");
-
+	background-image: url("game/image/buttonflap.png");
 }
 
 .button:hover {
-    transition: 0.2s;
-    background-image: url("game/image/buttonflap_hover.png");
-    cursor: pointer;
+	transition: 0.2s;
+	background-image: url("game/image/buttonflap_hover.png");
+	cursor: pointer;
 }
 
 *:focus {
-    outline: none;
+	outline: none;
 }
 
 .noSelect {
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
