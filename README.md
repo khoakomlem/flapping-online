@@ -1,6 +1,6 @@
 In your CLI types: 
 ```
-node index.js
+npm install & npm start
 ```
 Enjoy! <br>
 My email: visualpascalc@gmail.com <br>
