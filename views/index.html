@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158542196-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-158542196-1');
+    </script> -->
+    <div id="p5_loading" class="loadingclass" style="position:fixed;top:0px; left:0px;width: 100%;height: 100%;background-color: black;z-index:4;">
+        <img src="game/image/load.gif" style="position:fixed;bottom:0px;right:0px;z-index: 2;">
+    </div>
+    <title>Flapping Online</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bmoren/p5.collide2D@0.6/p5.collide2d.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script>
+        var images, game, gameDebug=false, coin = 0, background, Width=0, Height =0;
+    </script>
+    <!-- code phần này -->
+    <div id='container' class="fullSize noSelect">
+        <div id="game" class="center" style="display: table-cell;vertical-align: middle">
+            <div id="coin_wrap" style="float: right; margin: 10px 10px 10px 10px">
+                <img id="coin_icon" src="game/image/coin2.png" style="display: inline-block; vertical-align: middle;" width="50px">
+                <span id="coin" style="vertical-align: middle; font-size: 24px;">0</span>
+            </div>
+            <div id="menu_button" style="text-align: center; display: table-cell;vertical-align: middle;" class="center">
+                <input type="submit" class="button" id='pvp' value="PvP"><br>
+                <input type="submit" class="button" id="single" value="SINGLE"><br>
+                <input type="submit" class="button" id='help' value="HELP">
+            </div>
+        </div>
+        <div class="noSelect" style="position: fixed; left: 10px; bottom: 10px; font-size: 18px;">
+            Online: <span id="online_count">0</span>
+        </div>
+        <div class="noSelect" style="position: absolute; bottom: 10px; right: 10px; font-size: 18px"><a href="https://github.com/MrKhoaBean/flapping-online2" target="_blank">Star this repo :3</a></div>
+    </div>
+    <!-- END -->
+    <script src="game/animation.js"></script>
+    <script src="game/game_manager.js"></script>
+    <script src="game/function.js"></script>
+    <script src="game/obstacle.js"></script>
+    <script src="game/sprite/pipe.js"></script>
+    <script src="game/sprite/movingpipe.js"></script>
+    <script src="game/sprite/popen.js"></script>
+    <script src="game/sprite/bird.js"></script>
+    <script src="game/sprite/block.js"></script>
+    <script src="game/sprite/coin.js"></script>
+    <script src="game/game_mode.js"></script>
+    <script src="game/sketch.js"></script>
+    <script src="game/client.js"></script>
+</body>
+
+</html>

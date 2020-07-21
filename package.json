@@ -1,0 +1,23 @@
+{
+  "name": "flapping-online-2",
+  "version": "1.0.0",
+  "description": "Phien Ban 2 cua flapping online",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrKhoaBean/flappingonline.git"
+  },
+  "author": "MrKhoaBean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrKhoaBean/flappingonline/issues"
+  },
+  "homepage": "https://github.com/MrKhoaBean/flappingonline#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
