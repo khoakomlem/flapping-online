@@ -1,7 +1,11 @@
-In your CLI types: 
+# SETUP:
+```shellscript
+npm install
 ```
-npm install & npm start
+
+# DEPLOYMENT:
+```shellscript
+npm start
 ```
-Enjoy! <br>
-My email: visualpascalc@gmail.com <br>
-Test link: https://flapping-online.herokuapp.com/
+
+Heroku testing: https://flapping-online.herokuapp.com/
