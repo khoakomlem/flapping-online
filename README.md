@@ -8,4 +8,4 @@ npm install
 npm start
 ```
 
-Heroku testing: https://flapping-online.herokuapp.com/
+Demo: https://flapping-online.khoakomlem.repl.co
